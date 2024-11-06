@@ -44,7 +44,7 @@ body {
 #content {
   padding: 30px 40px 10px 40px;
 }
-#content h2 {
+#content h1 {
   color: hsl(217, 19%, 35%);
 }
 #content p {
@@ -173,8 +173,9 @@ body {
 #footer-right:nth-child(2):active #share-info-desktop {
   display: block;
 }
-#content h2 {
+#content h1 {
   margin-bottom: 10px;
+  font-size: 1.5em;
 }
 body:hover > #share-info-desktop {
   display: none;
