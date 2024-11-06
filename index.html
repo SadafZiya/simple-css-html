@@ -11,66 +11,75 @@
     />
     <link rel="stylesheet" href="./style.css" />
     <title>Frontend Mentor | Article preview component</title>
-
   </head>
   <body>
-    <div id="mainDiv">
-      <div id="section-image">
-        <img src="./images/drawers.jpg" />
-      </div>
-      <div id="section-content">
-        <div id="content">
-          <h2>
-            Shift the overall look and feel by adding these wonderfull touches
-            to furniture in your home
-          </h2>
-          <p>
-            Ever been in a room and felt like something was missing? Perhaps it
-            felt slightly bare and uninviting. I've got some simple tips to help
-            you make any room feel complete.
-          </p>
+    <main>
+      <div id="mainDiv">
+        <div id="section-image">
+          <img src="./images/drawers.jpg" img="drawers" />
         </div>
-
-        <div id="footer-card">
-          <div id="footer-left">
-            <div><img src="./images/avatar-michelle.jpg" /></div>
-            <div>
-              <span>Michelle Appleton</span>
-              <span>28 Jun 2020</span>
-            </div>
+        <div id="section-content">
+          <div id="content">
+            <h2>
+              Shift the overall look and feel by adding these wonderfull touches
+              to furniture in your home
+            </h2>
+            <p>
+              Ever been in a room and felt like something was missing? Perhaps
+              it felt slightly bare and uninviting. I've got some simple tips to
+              help you make any room feel complete.
+            </p>
           </div>
 
-          <div id="footer-right">
-            <div id="share-info-desktop">
-              <div>
-                <span>SHARE</span>
-                <img src="./images/icon-facebook.svg" />
-                <img src="./images/icon-twitter.svg" />
-                <img src="./images/icon-pinterest.svg" />
+          <footer>
+            <div id="footer-card">
+              <div id="footer-left">
+                <div>
+                  <img src="./images/avatar-michelle.jpg" alt="profile-image" />
+                </div>
+                <div>
+                  <span>Michelle Appleton</span>
+                  <span>28 Jun 2020</span>
+                </div>
+              </div>
+
+              <div id="footer-right">
+                <aside>
+                  <div id="share-info-desktop">
+                    <div>
+                      <span>SHARE</span>
+                      <img src="./images/icon-facebook.svg" alt="facebook" />
+                      <img src="./images/icon-twitter.svg" alt="twitter" />
+                      <img src="./images/icon-pinterest.svg" alt="pinterest" />
+                    </div>
+                  </div>
+                </aside>
+                <div id="share-icon">
+                  <img src="./images/icon-share.svg" alt="share" />
+                </div>
               </div>
             </div>
-            <div id="share-icon">
-              <img src="./images/icon-share.svg" />
-            </div>
-          </div>
-        </div>
 
-        <div id="footer-card-mobile">
-          <div id="footer-left-mobile">
-            <span>SHARE</span>
-            <img src="./images/icon-facebook.svg" />
-            <img src="./images/icon-twitter.svg" />
-            <img src="./images/icon-pinterest.svg" />
-          </div>
+            <div id="footer-card-mobile">
+              <div id="footer-left-mobile">
+                <span>SHARE</span>
+                <img src="./images/icon-facebook.svg" alt="facebook" />
+                <img src="./images/icon-twitter.svg" alt="twitter" />
+                <img src="./images/icon-pinterest.svg" alt="pinterest" />
+              </div>
 
-          <div id="footer-right-mobile">
-            <div id="share-icon-mobile">
-              <img src="./images/icon-share.svg" />
+              <aside>
+                <div id="footer-right-mobile">
+                  <div id="share-icon-mobile">
+                    <img src="./images/icon-share.svg" alt="share" />
+                  </div>
+                </div>
+              </aside>
             </div>
-          </div>
+          </footer>
         </div>
       </div>
-    </div>
+    </main>
   </body>
   <script src="index.js"></script>
 </html>
